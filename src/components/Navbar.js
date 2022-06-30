@@ -1,8 +1,8 @@
-import banner from './img/banner.jpg'
-import twitter from './img/t2.png'
-import OpenSea from './img/opensea.png'
-import Etherscan from './img/etherscan.webp'
-import './navbar.css';
+import banner from '../img/banner.jpg'
+import twitter from '../img/t2.png'
+import OpenSea from '../img/opensea.png'
+import Etherscan from '../img/etherscan.webp'
+import '../styles/navbar.css';
 const Navbar = () => {
     return (
         <>
