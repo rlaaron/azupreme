@@ -9,6 +9,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <div className="navbar-brand"><img src={banner} className="title_img"/></div>
+
                     <div className="d-flex">
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav">
