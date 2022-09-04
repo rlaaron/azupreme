@@ -53,19 +53,21 @@ const Mint = ({ accounts, setAccounts }) => {
     <>
       {isConnected ? (
         <div className='container'>
-          <div className='text'> 
-            <p>A brand for the metaverse</p> 
-            <p>3333 Azupreme</p>
-          </div>
-          <div className='mint'>
-            <button onClick={handleDecrement} className="connect" >-</button>
-            <p className='amount'>{mintAmount}</p>
-            <button onClick={handleIncrement} className="connect" >+</button>
-            <button onClick={handleMint} className="connect"> Mint now </button>
-          </div>
-          <div className='text'>
-            <p>Not affiliated with azuki or supreme</p>
-            <p>Zero royalties, we love Degens</p>
+          <div className='c1'>
+            <div className='text'> 
+              <p>A brand for the metaverse</p> 
+              <p>3333 Azupreme</p>
+            </div>
+            <div className='mint'>
+              <button onClick={handleDecrement} className="connect" >-</button>
+              <p className='amount'>{mintAmount}</p>
+              <button onClick={handleIncrement} className="connect" >+</button>
+              <button onClick={handleMint} className="connect"> Mint now </button>
+            </div>
+            <div className='text'>
+              <p>Not affiliated with azuki or supreme </p>
+              <p>Zero royalties, we love Degens</p>
+            </div>
           </div>
         </div>
       ) : (
