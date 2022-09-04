@@ -8,6 +8,7 @@
 .navbar{
     background-color: #fe0000 !important;
 }
+
 .title_img{
     width: 40%;
     height: 40%;
@@ -19,3 +20,21 @@
     margin: 10px;
     border-radius: 50%;
   }
+.d-flex{
+    margin-right: 6.6rem;
+}
+
+@media screen and (max-width: 800px) {
+    .title_img{
+        width: 80%;
+        height: 80%;
+    }
+    .links_img{
+        width: 50%;
+    } 
+    .navbar-toggler.collapsed{
+        margin-top: -80px;
+    }
+    
+   
+}

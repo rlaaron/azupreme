@@ -1,14 +1,33 @@
 *{
     padding: 0px;
     margin: 0px;
-    background-color: #fe0000;
+    
+}
+.col{
+    margin-right: 200px;
 }
 .container_gif{
     width: 100%;
     height: 100%;
+
 }
 .gif{
     width: 100%;
     border-radius: 30px;
-    border: 10px solid rgb(255, 255, 255);    
+    /* border: 2px solid rgb(255, 255, 255); */
+    box-shadow:
+    10.4px 7.9px 2.3px rgba(0, 0, 0, 0.011),
+    20.2px 15.3px 5.5px rgba(0, 0, 0, 0.026),
+    30.2px 22.8px 10.3px rgba(0, 0, 0, 0.052),
+    42.1px 31.8px 18.3px rgba(0, 0, 0, 0.099),
+    62.1px 47px 34.3px rgba(0, 0, 0, 0.119),
+    127px 96px 82px rgba(0, 0, 0, 0.13)
+    ;
+
+    
+}
+@media screen and (max-width: 800px) {
+    .col{
+        margin-right: 0px;
+    }
 }
